@@ -1,4 +1,5 @@
 {
+	"modmenu.descriptionTranslation.betterstats": "改进了统计界面，使其更实用。",
 	"betterstats": "更好的统计信息界面",
 	
 	"betterstats.translators.title": "翻译员",
@@ -17,7 +18,9 @@
 	"betterstats.stattype_phrase.morestats.damaged": "造成的伤害 (x10)",
 	"betterstats.stattype_phrase.morestats.damaged_by": "受到的伤害 (x10)",
 	"betterstats.stattype_phrase.morestats.totem_popped_by": "被触发的不死图腾数",
-	
+
+
+	"betterstats.key_binding.toggle_hud_screen": "切换统计信息 HUD",
 	
 	"betterstats.gui.menu_bar.menu_file": "文件",
 	"betterstats.gui.menu_bar.menu_file.new": "新建",
@@ -54,7 +57,7 @@
 	"betterstats.client.gui.stats.panel.statstabpanel.seed_sha256": "种子 (SHA-256)",
 	
 	"betterstats.config.debug_mode": "调试模式",
-	"betterstats.config.gui_smooth_scroll": "GUI平滑滚动",
+	"betterstats.config.gui_smooth_scroll": "GUI 平滑滚动",
 	"betterstats.config.gui_smooth_scroll.tooltip": "启用时，滚动统计信息面板将拥有平滑的动画。\n这可能会在低端设备上造成性能负担。",
 	"betterstats.config.gui_mob_follow_cursor": "生物跟随光标",
 	"betterstats.config.trust_all_servers_bss_net": "自动切换 'betterstats' 连接",
@@ -67,7 +70,11 @@
 	"betterstats.config.wide_stats_panel.tooltip": "这台显示器是我花钱买的，所以我要使用整个屏幕。",
 	"betterstats.config.centered_stats_panel": "统计面板居中",
 	"betterstats.config.centered_stats_panel.tooltip": "启用后，统计面板（即整个 GUI）将位于屏幕中央。\n当启用“宽统计面板”时，此选项无效。",
-	
+	"betterstats.config.update_itemgroups_onjoin": "加入时更新物品组",
+	"betterstats.config.update_itemgroups_onjoin.tooltip": "出于性能和物品分组的原因，默认情况下，当您加入游戏时此模组都会自动更新物品分组。反之每当您打开背包时才会更新。\n\n如果此行为不受欢迎或导致兼容性问题，请禁用此功能。禁用此选项可能会导致物品分组在统计信息中显示为未分组。",
+	"betterstats.config.hide_player_info": "隐藏玩家信息",
+	"betterstats.config.hide_player_info.tooltip": "在“统计”屏幕中隐藏玩家信息。",
+
 	"betterstats.player_badge.dedication.title": "奉献",
 	"betterstats.player_badge.dedication.description": "你表现出了真正的奉献精神！你已在这个世界游玩了至少12天（288小时）。",
 	"betterstats.player_badge.loyalty.title": "忠诚",
@@ -80,15 +87,15 @@
 	"betterstats.player_badge.perennial_survivor.description": "你已成功逃脱了死亡，至少现在如此。 你还会继续逃避这不可避免之事吗？\n\n你已存活至少12小时。",
 	
 
-	"betterstats.gui.hud_screen": "统计信息HUD",
-	"betterstats.gui.hud_screen.pin_stat": "固定到HUD",
-	"betterstats.gui.hud_screen.live_stats_toggle": "切换统计HUD实是否时更新",
+	"betterstats.gui.hud_screen": "统计信息 HUD",
+	"betterstats.gui.hud_screen.pin_stat": "固定到 HUD",
+	"betterstats.gui.hud_screen.live_stats_toggle": "切换统计 HUD 实是否时更新",
 	"betterstats.gui.hud_screen.tutorial_1": "右键单击统计信息（[Shift]+RMB）将它添加到此处。",
 	"betterstats.gui.hud_screen.tutorial_2": "右键单击 HUD 条目以修改或删除它。",
 	"betterstats.gui.hud_screen.tutorial_3": "按 Escape (ESC) 键关闭此屏幕。",
 	
 	"betterstats.network.betterstatsnetworkhandler.toggle_tooltip": "切换'betterstats'服务器连接",
-	"betterstats.network.betterstatsnetworkhandler.consent_warning": "重要提示：\n启用该功能后服务器会知道您正在使用betterstats，请勿在可能不允许修改客户端或使用此模组的服务器上启用该功能！\n\n当服务器也安装此模组时，启用该功能会添加一些额外功能。",
+	"betterstats.network.betterstatsnetworkhandler.consent_warning": "重要提示：\n启用该功能后服务器会知道您正在使用 betterstats，请勿在可能不允许修改客户端或使用此模组的服务器上启用该功能！\n\n当服务器也安装此模组时，启用该功能会添加一些额外功能。",
 	"betterstats.network.betterstatsnetworkhandler.s3ps_tooltip": "查看其他来源的统计信息",
 	
 	
